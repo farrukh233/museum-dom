@@ -1,0 +1,44 @@
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 1024px;
+  }
+  .header__wrapper {
+    position: relative;
+  }
+  .welcome__art {
+    position: relative;
+  }
+  .welcome__description {
+    position: absolute;
+    left: 2%;
+    top: -5%;
+    z-index: 2;
+  }
+
+  .welcome__description h1 {
+    font-size: 50px;
+  }
+  .welcome__description p {
+    font-size: 24px;
+  }
+  .welcome__pic {
+    width: 700px;
+    height: 525px;
+    padding-right: 80px;
+  }
+  .welcome__button {
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+  .welcome__slider {
+    width: 700px;
+    height: 120px;
+    padding-right: 80px;
+    position: absolute;
+    top: 75%;
+  }
+}
